@@ -41,3 +41,6 @@ if (login == 'Админ') {
 * (in progress) Basic JavaScript Tutorial [Code.mu](https://code.mu/ru/javascript/book/prime/)
 * (in progress) RS Schools Course «JavaScript/Front-end. Stage 0» 
 
+## Languages:
+* Russian - Native
+* English - Elementary А2
