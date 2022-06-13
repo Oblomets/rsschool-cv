@@ -5,7 +5,7 @@
 * moblomets@gmail.com
 
 ## About Me
-> I am an engineer with the goal of changing my occupation to web development.
+> I am an engineer who wants to become a web developer.
 
 ## Scills:
 * HTML
