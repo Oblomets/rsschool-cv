@@ -5,17 +5,197 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
 <body>
     <header class="header">
-        <div class="container"></div>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main">
-        <div class="container"></div>
+        <div class="container">
+            <section id="contacts" class="section section-profile">
+                <div class="profile-description">
+                        <h1 class="profile-title">
+                            Maksim Oblomets
+                        </h1>
+                        <p class="profile-text">
+                            Student frontend developer 33 years old, Togliatti
+                        </p>
+                </div>
+                <div class="contacts">
+                    <ul class="contacts-list">
+                        <li class="contacts-item">
+                            <a href="https://t.me/Oblomets" class="contact-link telegram"><img src="./assets/svg/telegram.svg" alt="telegram-logo" class="telegram-logo"> Telegram</a>
+                        </li>
+                        <li class="contacts-item">
+                            <a href="https://discord.gg/gHyqMmTW" class="contact-link discord"><img src="./assets/svg/discord.svg" alt="discord-logo" class="discord-logo"> Discord</a>
+                        </li>
+                        <li class="contacts-item">
+                            <a href="mailto:moblomets@gmail.com" class="contact-link gmail"><img src="./assets/svg/gmail.svg" alt="gmail-logo" class="gmail-logo"> moblomets@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="about-me" class="section section-about-me">
+                <h2 class="section-title">
+                    About me
+                </h2>
+                <p class="section-text text-about-me">
+                    I am an engineer who wants to become a web developer.
+                </p>
+            </section>
+            <section id="skills" class="section section_grey section-skills">
+                <h2 class="section-title">
+                    Skills
+                </h2>
+                <p class="section-text">
+                    I working with technologies such as
+                </p>
+                <div class="skills-tech">
+                    <ul class="tech-list">
+                        <li class="tech-item">
+                            <img src="./assets/img/html.png" alt="html logo" class="tech-logo">
+                            <p class="tech-name">HTML</p>
+                        </li>
+                        <li class="tech-item">
+                            <img src="./assets/img/css.png" alt="css logo" class="tech-logo">
+                            <p class="tech-name">CSS</p>
+                        </li>
+                        <li class="tech-item">
+                            <img src="./assets/img/javascript.png" alt="javascript logo" class="tech-logo">
+                            <p class="tech-name">Javascript</p>
+                        </li>
+                        <li class="tech-item">
+                            <img src="./assets/img/git.png" alt="git logo" class="tech-logo">
+                            <p class="tech-name">GIT</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="code" class="section section-code">
+                <h2 class="section-title">
+                    Code
+                </h2>
+                <pre class="code">
+                    <code class="code">
+let login = prompt ('Введите логин', '');
+
+if (login == 'Админ') {
+    let password = prompt ('Введите пароль', '')
+
+        if (password == 'Я главный'){
+        alert ('Здравствуйте!');
+        } else if (password == (null || '')){
+        alert ('Отменено');
+        } else {
+        alert ('Неверный пароль');
+        }
+    } else if (login == (null || '')){
+    alert ('Отменено');
+} else {
+    alert ('Я вас не знаю');
+}
+                    </code>
+                </pre>
+            </section>
+            <section id="courses" class="section section_grey section-courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="courses-list section-text">
+                    <li class="courses-item">Introduction to HTML and CSS 
+                        <a class="courses-link" href="https://htmlacademy.ru/courses/basic-html-css">HTMLAcademy</a>
+                    </li>
+                    <li class="courses-item">HTML for beginners 
+                        <a class="courses-link" href="https://ru.code-basics.com/languages/html"> ru.code-basics.com</a>
+                    </li>
+                    <li class="courses-item">CSS for beginners 
+                        <a class="courses-link" href="https://ru.code-basics.com/languages/css"> ru.code-basics.com</a>
+                    </li>
+                    <li class="courses-item">(in progress) Basic JavaScript Tutorial 
+                        <a class="courses-link" href="https://code.mu/ru/javascript/book/prime/"> Code.mu</a>
+                    </li>
+                    <li class="courses-item">(in progress) 
+                        <a class="courses-link" href="https://rs.school/js-stage0/">RS Schools Course «JavaScript/Front-end. Stage 0»</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="projects" class="section section-projects">
+                <h2 class="section-title">
+                    Projects
+                </h2>
+                <ul class="projects-list">
+                    <li class="projects-item section-text">
+                        <p class="project-name">
+                            Form
+                        </p>
+                        <a href="https://oblomets.github.io/form_DS/" class="projects-link">
+                            <img src="./assets/img/project-form-ds.jpg" alt="project-form-ds" class="projects-preview">
+                        </a>
+                    </li>
+                    <li class="projects-item section-text">
+                        <p class="project-name">
+                            Museum
+                        </p>
+                        <a href="https://rolling-scopes-school.github.io/oblomets-JSFEPRESCHOOL/museum/" class="projects-link">
+                            <img src="./assets/img/project-museum.jpg" alt="project-museum" class="projects-preview">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section id="education" class="section section_grey section-education">
+                <h2 class="section-title">
+                    Education
+                </h2>
+                <p class="section-text">
+                    Togliatti State University
+                </p>
+            </section>
+            <section id="languages" class="section section-languages">
+                <h2 class="section-title">
+                    Languages
+                </h2>
+                <ul class="languages-list section-text">
+                    <li class="languages-item">
+                        Russian - Native
+                    </li>
+                    <li class="languages-item">
+                        English - Elementary А2
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
-    <footer class="footer">
-        <div class="container"></div>
+    <footer class="footer footer_grey">
+        <div class="container footer-item">
+            <div class="github-link">
+                <a href="https://github.com/Oblomets" class="github-link-item">My github Oblomets</a>
+            </div>
+            <div class="year">
+                <p class="year-item">
+                    2022
+                </p>
+            </div>
+            <div class="school-link">
+                <a href="https://rs.school/js-stage0/" class="school-link-item">
+                    <img src="./assets/svg/rs_school_js.svg" alt="rs-school-logo" class="school-logo">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
