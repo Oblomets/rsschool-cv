@@ -134,3 +134,18 @@
 .projects-preview{
     width: 400px;
 }
+.footer_grey{
+    background: #F6F6F6;
+}
+.footer-item{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.github-link{
+    width: 100px;
+}
+.school-logo{
+    width: 100px;
+}

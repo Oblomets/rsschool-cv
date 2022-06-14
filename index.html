@@ -15,21 +15,21 @@
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">About Me</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
         <div class="container">
-            <section class="section section-profile">
+            <section id="contacts" class="section section-profile">
                 <div class="profile-description">
                         <h1 class="profile-title">
                             Maksim Oblomets
@@ -41,18 +41,18 @@
                 <div class="contacts">
                     <ul class="contacts-list">
                         <li class="contacts-item">
-                            <a href="https://t.me/Oblomets" class="contact-link telegram"><img src="./assets/svg/telegram.svg" alt="" class="telegram-logo"> Telegram</a>
+                            <a href="https://t.me/Oblomets" class="contact-link telegram"><img src="./assets/svg/telegram.svg" alt="telegram-logo" class="telegram-logo"> Telegram</a>
                         </li>
                         <li class="contacts-item">
-                            <a href="https://discord.gg/gHyqMmTW" class="contact-link discord"><img src="./assets/svg/discord.svg" alt="" class="discord-logo"> Discord</a>
+                            <a href="https://discord.gg/gHyqMmTW" class="contact-link discord"><img src="./assets/svg/discord.svg" alt="discord-logo" class="discord-logo"> Discord</a>
                         </li>
                         <li class="contacts-item">
-                            <a href="mailto:moblomets@gmail.com" class="contact-link gmail"><img src="./assets/svg/gmail.svg" alt="" class="gmail-logo"> moblomets@gmail.com</a>
+                            <a href="mailto:moblomets@gmail.com" class="contact-link gmail"><img src="./assets/svg/gmail.svg" alt="gmail-logo" class="gmail-logo"> moblomets@gmail.com</a>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="section section-about-me">
+            <section id="about-me" class="section section-about-me">
                 <h2 class="section-title">
                     About me
                 </h2>
@@ -60,7 +60,7 @@
                     I am an engineer who wants to become a web developer.
                 </p>
             </section>
-            <section class="section section_grey section-skills">
+            <section id="skills" class="section section_grey section-skills">
                 <h2 class="section-title">
                     Skills
                 </h2>
@@ -88,7 +88,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="section section-code">
+            <section id="code" class="section section-code">
                 <h2 class="section-title">
                     Code
                 </h2>
@@ -114,7 +114,7 @@ if (login == 'Админ') {
                     </code>
                 </pre>
             </section>
-            <section class="section section_grey section-courses">
+            <section id="courses" class="section section_grey section-courses">
                 <h2 class="section-title">Courses</h2>
                 <ul class="courses-list section-text">
                     <li class="courses-item">Introduction to HTML and CSS 
@@ -134,7 +134,7 @@ if (login == 'Админ') {
                     </li>
                 </ul>
             </section>
-            <section class="section section-projects">
+            <section id="projects" class="section section-projects">
                 <h2 class="section-title">
                     Projects
                 </h2>
@@ -157,7 +157,7 @@ if (login == 'Админ') {
                     </li>
                 </ul>
             </section>
-            <section class="section section_grey section-education">
+            <section id="education" class="section section_grey section-education">
                 <h2 class="section-title">
                     Education
                 </h2>
@@ -165,7 +165,7 @@ if (login == 'Админ') {
                     Togliatti State University
                 </p>
             </section>
-            <section class="section section-languages">
+            <section id="languages" class="section section-languages">
                 <h2 class="section-title">
                     Languages
                 </h2>
@@ -180,8 +180,22 @@ if (login == 'Админ') {
             </section>
         </div>
     </main>
-    <footer class="footer">
-        <div class="container"></div>
+    <footer class="footer footer_grey">
+        <div class="container footer-item">
+            <div class="github-link">
+                <a href="https://github.com/Oblomets" class="github-link-item">My github Oblomets</a>
+            </div>
+            <div class="year">
+                <p class="year-item">
+                    2022
+                </p>
+            </div>
+            <div class="school-link">
+                <a href="https://rs.school/js-stage0/" class="school-link-item">
+                    <img src="./assets/svg/rs_school_js.svg" alt="rs-school-logo" class="school-logo">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
