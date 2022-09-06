@@ -38,8 +38,8 @@ if (login == 'Админ') {
 * Introduction to HTML and CSS [HTMLAcademy](https://htmlacademy.ru/courses/basic-html-css)
 * HTML for beginners [ru.code-basics.com](https://ru.code-basics.com/languages/html)
 * CSS for beginners [ru.code-basics.com](https://ru.code-basics.com/languages/css)
-* (in progress) Basic JavaScript Tutorial [Code.mu](https://code.mu/ru/javascript/book/prime/)
-* (in progress) RS Schools Course «JavaScript/Front-end. Stage 0» 
+* (in progress) JavaScript for beginners [ru.code-basics.com](https://ru.code-basics.com/languages/javascript)
+* (in progress) RS Schools Course «JavaScript/Front-end. Stage 1» 
 
 ## Languages:
 * Russian - Native
